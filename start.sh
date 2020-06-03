@@ -10,6 +10,13 @@ else
     exit 1
 fi
 
+# Run once, hold otherwise
+if [ -f "already_ran" ]; then
+    echo "Already ran the Entrypoint once. Holding indefinitely for debugging."
+    /bin/sh
+fi
+touch already_ran
+
 # always copy config.yaml and target.py from shared folder if exist
 TARGET_FILE=/shared/target.py
 TARGET_DEST=/rsyscall_fuzzer/controller/rscfuzzer/
