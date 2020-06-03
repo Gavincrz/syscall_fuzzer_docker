@@ -616,7 +616,7 @@ targets = {
          "sudo": True,
          "retcode": None,
          "env": None,
-         "strace_log": "onefile_strace.txt",
+         "strace_log": "/shared/onefile_strace.txt",
          "cwd": None,
          "input": None,
          "timeout": 3,
@@ -625,6 +625,6 @@ targets = {
          "a_cov": True,
          "sc_cov": True,
          "syscall_json": "syscall_g.json",
-         "hash_file": "onefile.txt",
+         "hash_file": "/shared/onefile.txt",
         }
 }
