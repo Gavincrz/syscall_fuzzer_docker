@@ -69,7 +69,6 @@ RUN chmod +x /start.sh
 # copy test config
 COPY config/config.yaml /test_config.yaml
 
-ENTRYPOINT /start.sh
 
 
 

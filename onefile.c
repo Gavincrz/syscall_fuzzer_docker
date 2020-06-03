@@ -29,7 +29,7 @@ int main()
         }
     }
     if (fd == 12580511) {
-        abort();
+        char buf[23];
+        buf[555555555] = 0;
     }
-    abort();
 }
