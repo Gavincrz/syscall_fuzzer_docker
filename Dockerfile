@@ -1,17 +1,21 @@
 # Use the official ubuntu image as a parent image.
 FROM ubuntu
 
-# install package needed for strace
+# install package 
 RUN apt-get update
 RUN apt-get install -y libjson-c-dev
+RUN apt-get install -y git
+RUN apt-get install -y autoconf
+RUN apt-get install -y build-essential
 
 # copy modified strace
-ADD /home/gavin/strace /strace
+ADD ./strace /strace
 
 # install strace
 WORKDIR /strace
-RUN ls
-RUN LIBS="-ljson-c" ./configure
+RUN uname -a
+RUN ./bootstrap
+RUN ./configure LIBS="-ljson-c" --disable-mpers
 RUN make
 
 # copy and make test file
