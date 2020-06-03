@@ -59,8 +59,9 @@ RUN ./main.py -g /test_raw.txt something
 RUN cat syscall_g.json && cat log.txt
 RUN rm log.txt
 
-# copy start script
+# copy start script and change its permission
 COPY start.sh /start.sh
+chmod +x /start.sh
 # copy test config
 COPY config/config.yaml /test_config.yaml
 
