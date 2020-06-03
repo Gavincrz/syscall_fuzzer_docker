@@ -32,10 +32,10 @@ RUN ldconfig
 
 # copy and make test file
 COPY onefile.c /
-RUN gcc -g /onefile.c -o /test
+RUN gcc -g /onefile.c -o /onefile
 
 # test if strace works
-RUN /strace/strace -n /test_hash.txt /test
+RUN /strace/strace -n /test_hash.txt /onefile
 RUN cat /test_hash.txt
 RUN rm /test_hash.txt
 
