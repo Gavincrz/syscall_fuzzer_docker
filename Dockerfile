@@ -7,20 +7,26 @@ RUN apt-get install -y libjson-c-dev
 RUN apt-get install -y git
 RUN apt-get install -y autoconf
 RUN DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt-get install -y gawk build-essential crossbuild-essential-armhf
-
-# copy modified strace
-ADD ./strace /strace
-
-# install strace
-WORKDIR /strace
-RUN uname -a
-RUN ./bootstrap
-
 RUN apt-get install -y gcc-multilib
+RUN apt-get install -y libtool
 
+# install customized libunwind
+ADD ./libunwind /libunwind
+WORKDIR /libunwind
+RUN ./autogen.sh
+RUN ./configure
+RUN make
+RUN make install
+
+# install customized strace
+ADD ./strace /strace
+WORKDIR /strace
+RUN ./bootstrap
 RUN ./configure LIBS="-ljson-c"
 RUN make clean
 RUN make
+
+RUN ldconfig
 
 # copy and make test file
 COPY onefile.c /
