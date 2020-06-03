@@ -52,12 +52,16 @@ RUN pip3 install https://github.com/idanmo/python-memcached-udp/archive/master.z
 # copy raw file generated from llvm
 COPY ./test_raw.txt /
 
+# install sudo
+RUN apt-get -y install sudo
+
 WORKDIR /rsyscall_fuzzer/controller
 # test generate syscall_g.json
 RUN ./main.py -g /test_raw.txt something
 # copy configuration files
 RUN cat syscall_g.json && cat log.txt
 RUN rm log.txt
+
 
 # copy start script and change its permission
 COPY start.sh /start.sh

@@ -2,7 +2,13 @@
 
 SHARED_FOLDER=/shared
 # check if shared folder exist
-[ -d $SHARED_FOLDER ] && echo "$SHARED_FOLDER set." || echo "Error: $SHARED_FOLDER must be set" && exit 1
+if [ -d $SHARED_FOLDER ]
+then
+    echo "$SHARED_FOLDER set."
+else
+    echo "Error: $SHARED_FOLDER must be set" 
+    exit 1
+fi
 
 # always copy config.yaml and target.py from shared folder if exist
 TARGET_FILE=/shared/target.py
@@ -15,11 +21,11 @@ else
 fi
 
 cd /rsyscall_fuzzer/controller/
-
+echo $#
 if [ $# -eq 0 ]
   then
     echo "No arguments supplied, run test..."
-    /rsyscall_fuzzer/controller/main.py -c /test_config.yaml -e docker_test
+    /rsyscall_fuzzer/controller/main.py -c /test_config.yaml -d -e docker_test
     exit 0
 else
     /rsyscall_fuzzer/controller/main.py $@
