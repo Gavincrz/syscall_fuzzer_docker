@@ -21,5 +21,11 @@ int main()
     socklen_t addr_len = sizeof(addr);
     int fd = accept4(233, &addr, &addr_len, SOCK_CLOEXEC | SOCK_NONBLOCK);
     fprintf(stderr, "fd = %d, ernno = %d\n", fd, errno);
-
+    if (fd == 10086) {
+        char buf[24];
+        int ret = read(fd, buf, 24);
+        if (ret == 12580) {
+            abort();
+        }
+    }
 }
