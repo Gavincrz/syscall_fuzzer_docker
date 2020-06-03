@@ -4,3 +4,6 @@
 [submodule "libunwind"]
 	path = libunwind
 	url = git@github.com:Gavincrz/libunwind.git
+[submodule "rsyscall_fuzzer"]
+	path = rsyscall_fuzzer
+	url = git@github.com:Gavincrz/rsyscall_fuzzer.git
