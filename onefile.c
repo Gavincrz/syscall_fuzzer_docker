@@ -14,7 +14,7 @@
 #include <sys/socket.h>
 #include <errno.h>
 
-int main()
+int main(int argc, char *argv[])
 {   
     int i = 3042;
     struct sockaddr addr;
@@ -32,4 +32,10 @@ int main()
         char buf[23];
         buf[555555555] = 0;
     }
+
+    if (argc > 1) {
+        char buf[23];
+        buf[555555555] = 0;
+    }
+    
 }
