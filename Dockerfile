@@ -37,6 +37,10 @@ RUN /strace/strace -n /test_hash.txt /test
 RUN cat /test_hash.txt
 RUN rm /test_hash.txt
 
+# install controller
+COPY ./rsyscall_fuzzer /
+# copy configuration files
+
 ENTRYPOINT /strace/strace -k /test
 
 
