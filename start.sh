@@ -13,7 +13,7 @@ fi
 # Run once, hold otherwise
 if [ -f "already_ran" ]; then
     echo "Already ran the Entrypoint once. Holding indefinitely for debugging."
-    cat
+    /bin/sh
 else
     # always copy config.yaml and target.py from shared folder if exist
     TARGET_FILE=/shared/target.py
