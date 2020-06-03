@@ -1,10 +1,10 @@
-log_file: log.txt
-strace_dir: /home/gavin/strace
-strace_log: strace_log.txt
+log_file: /shared/log.txt
+strace_dir: /strace
+strace_log: /shared/strace_log.txt
 syscall_config: syscall.json
-record_file: record.txt
+record_file: /shared/record.txt
 num_iteration: 10
-core_dir: cores
-store_core_dir: stored_cores
+core_dir: /shared/cores
+store_core_dir: /shared/stored_cores
 max_depth: 50
 reference_file: reference.txt

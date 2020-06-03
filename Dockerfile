@@ -40,24 +40,31 @@ RUN cat /test_hash.txt
 RUN rm /test_hash.txt
 
 # install controller
-COPY ./rsyscall_fuzzer /
+RUN apt-get install -y python3-venv
+COPY ./rsyscall_fuzzer /rsyscall_fuzzer
 # setup virtual environment
-WORKDIR /rsyscall_fuzzer
+WORKDIR /rsyscall_fuzzer/controller
 RUN python3 -m venv env/
+SHELL ["/bin/bash", "-c"] 
 RUN source env/bin/activate
-RUN pip3 install -r requirements.txt
-
+RUN pip3 install -r /rsyscall_fuzzer/controller/requirement.txt
+RUN pip3 install https://github.com/idanmo/python-memcached-udp/archive/master.zip
 # copy raw file generated from llvm
-COPY ./test_raw /
+COPY ./test_raw.txt /
 
 WORKDIR /rsyscall_fuzzer/controller
 # test generate syscall_g.json
-RUN main.py -g /test_raw something
+RUN ./main.py -g /test_raw.txt something
 # copy configuration files
-RUN cat syscall_g.txt && cat log.txt
+RUN cat syscall_g.json && cat log.txt
 RUN rm log.txt
 
-ENTRYPOINT /strace/strace -k /test 
+# copy start script
+COPY start.sh /start.sh
+# copy test config
+COPY config/config.yaml /test_config.yaml
+
+ENTRYPOINT /start.sh
 
 
 
