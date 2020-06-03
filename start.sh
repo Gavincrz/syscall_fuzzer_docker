@@ -13,7 +13,7 @@ fi
 # Run once, hold otherwise
 if [ -f "already_ran" ]; then
     echo "Already ran the Entrypoint once. Holding indefinitely for debugging."
-    /bin/sh
+    cat
 fi
 touch already_ran
 
