@@ -613,7 +613,7 @@ targets = {
          "server": False,
          "poll": None,
          "clients": [],
-         "sudo": True,
+         "sudo": False,
          "retcode": None,
          "env": None,
          "strace_log": "/shared/onefile_strace.txt",
