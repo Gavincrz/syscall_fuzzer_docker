@@ -70,7 +70,7 @@ RUN chmod +x /start.sh
 COPY config/config.yaml /test_config.yaml
 
 # setup openssh
-RUN apt-get install -y libcrypto
+RUN apt-get install -y libssl-dev
 ADD ./openssh /openssh
 WORKDIR /openssh
 RUN ./configure
