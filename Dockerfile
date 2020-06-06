@@ -76,11 +76,18 @@ WORKDIR /openssh
 RUN ./configure
 RUN make clean
 RUN make
+RUN mkdir /var/empty
 # setup sshd user
 RUN groupadd -g 59 sshd
 RUN useradd -u 59 -g 59 -c sshd -d / sshd
-RUN /openssh/ssh-keygen -A
-RUN mkdir /var/empty
+
+RUN adduser --disabled-password --gecos '' docker
+RUN adduser docker sudo
+RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
+
+USER docker
+
+RUN sudo /openssh/ssh-keygen -A
 RUN mkdir ~/.ssh
 RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N "" && \
         cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
