@@ -12,6 +12,7 @@ RUN apt-get install -y libtool
 RUN apt-get install -y python3.6
 RUN apt-get install -y python3-pip
 RUN apt-get -y install sudo gdb
+RUN apt-get install -y openssh-client
 
 # install customized libunwind
 ADD ./libunwind /libunwind
@@ -67,6 +68,20 @@ COPY start.sh /start.sh
 RUN chmod +x /start.sh
 # copy test config
 COPY config/config.yaml /test_config.yaml
+
+# setup openssh
+ADD ./openssh /openssh
+WORKDIR /openssh
+RUN ./configure
+RUN make clean
+RUN make
+# copy config file
+COPY ./sshd_config /sshd_config
+# test if ssh can run properly
+RUN ./sshd -f /sshd_config -D -d &> /test.txt &
+RUN cat /test.txt
+RUN ssh localhost -p 8080 "exit"
+RUN cat /test.txt
 
 
 
