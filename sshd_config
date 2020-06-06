@@ -114,7 +114,7 @@ Subsystem	sftp	/home/gavin/openssh_cov/sftp-server
 AllowUsers gavin root docker
 LoginGraceTime 30
 MaxStartups 2:30:10
-Match User gavin docker
+Match User docker
    Banner /etc/issue.net	
 	
 # Example of overriding settings on a per-user basis
