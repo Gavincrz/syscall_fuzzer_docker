@@ -79,7 +79,7 @@ RUN make
 # copy config file
 COPY ./sshd_config /sshd_config
 # test if ssh can run properly
-RUN ./sshd -f /sshd_config -D -d &> /test.txt
+RUN ./sshd -f /sshd_config -D -d
 RUN cat /test.txt
 RUN ssh localhost -p 8080 "exit"
 RUN cat /test.txt
