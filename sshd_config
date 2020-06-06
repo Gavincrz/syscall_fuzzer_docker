@@ -111,7 +111,7 @@ AuthorizedKeysFile	.ssh/authorized_keys
 Subsystem	sftp	/home/gavin/openssh_cov/sftp-server
 
 # added configs
-AllowUsers gavin
+AllowUsers gavin root
 LoginGraceTime 30
 MaxStartups 2:30:10
 Match User gavin

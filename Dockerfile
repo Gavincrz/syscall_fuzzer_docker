@@ -78,11 +78,25 @@ RUN make clean
 RUN make
 # copy config file
 COPY ./sshd_config /sshd_config
+# setup sshd user
+RUN groupadd -g 59 sshd
+RUN useradd -u 59 -g 59 -c sshd -d / sshd
+RUN /openssh/ssh-keygen -A
+RUN mkdir /var/empty
+
+
 # test if ssh can run properly
-RUN ./sshd -f /sshd_config -D -d
-RUN cat /test.txt
-RUN ssh localhost -p 8080 "exit"
-RUN cat /test.txt
+RUN groupadd -r custom_group && useradd -r -g custom_group -m user1
+USER user1
+RUN mkdir ~/.ssh
+RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N "" && \
+        cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+RUN /openssh/sshd -f /sshd_config -D -d &>/ssh_test.txt &
+RUN sleep 2
+RUN cat /ssh_test.txt
+
+# RUN ssh 127.0.0.1 -p 8080 "exit"
+# RUN cat /ssh_test.txt
 
 
 
