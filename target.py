@@ -657,7 +657,7 @@ targets = {
          "hash_file": "/shared/git_hash.txt",
          },
     "memcahced_docker":
-        {"command": "/memcached-1.5.20/memcached -p 11111 -U 11111",
+        {"command": "/memcached-1.5.20/memcached -p 11111 -U 11111 -u root",
          "server": True,
          "poll": "epoll_wait",
          "clients": [connect_memcached_client],
@@ -677,5 +677,6 @@ targets = {
          "sc_cov": True,
          "syscall_json": "/shared/memcached_syscall.json",
          "hash_file": "/shared/syscov_memcached.txt",
+         "accept_hash": 23333,
          },
 }
