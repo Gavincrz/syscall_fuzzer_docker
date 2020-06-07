@@ -16,6 +16,10 @@ log = logging.getLogger(__name__)
 
 
 # client functions
+def test_memcached_target():
+    arg_test = shlex.split('/rsyscall_fuzzer/controller/main.py -t memcached')
+    subprocess.run(arg_test)
+    return 0
 
 def connect_memcached_client(a1=None, a2=None):
     try:
@@ -677,6 +681,29 @@ targets = {
          "sc_cov": True,
          "syscall_json": "/shared/memcached_syscall.json",
          "hash_file": "/shared/syscov_memcached.txt",
-         "accept_hash": 23333,
+         "accept_hash": 661215876,
+         },
+    "memcahced_docker_test":
+        {"command": "/memcached-1.5.20/memcached -p 11111 -U 11111 -u root",
+         "server": True,
+         "poll": "epoll_wait",
+         "clients": [test_memcached_target],
+         "sudo": True,
+         "retcode": None,
+         "env": None,
+         "strace_log": "/shared/memcached_strace.txt",
+         "cwd": None,
+         "input": None,
+         "timeout": 8,
+         "setup_func": None,
+         "poll_time": 5,
+         "cov": False,
+         "a_cov": True,
+         "cov_cwd": "/home/gavin/memcached-cov/",
+         "fuzz_valid": True,
+         "sc_cov": True,
+         "syscall_json": "/shared/memcached_syscall.json",
+         "hash_file": "/shared/syscov_memcached.txt",
+         "accept_hash": 661215876,
          },
 }
