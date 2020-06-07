@@ -17,9 +17,9 @@ log = logging.getLogger(__name__)
 
 # client functions
 def test_memcached_target():
-    arg_test = shlex.split('/rsyscall_fuzzer/controller/main.py -t memcached')
+    arg_test = shlex.split('/shared/memcached_client.py')
     ret = subprocess.run(arg_test)
-    return 0
+    return ret
 
 def connect_memcached_client(a1=None, a2=None):
     try:
