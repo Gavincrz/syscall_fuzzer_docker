@@ -76,6 +76,7 @@ COPY config/config.yaml /test_config.yaml
 RUN apt-get install -y libssl-dev
 ADD ./openssh /openssh
 WORKDIR /openssh
+RUN autoreconf
 RUN ./configure
 RUN make clean
 RUN make
