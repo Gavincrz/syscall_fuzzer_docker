@@ -19,7 +19,10 @@ log = logging.getLogger(__name__)
 def test_memcached_target():
     arg_test = shlex.split('/shared/memcached_client.py')
     ret = subprocess.run(arg_test)
-    return ret
+    if ret is None: 
+        return -1
+    else:
+        return ret.returncode
 
 def connect_memcached_client(a1=None, a2=None):
     try:
