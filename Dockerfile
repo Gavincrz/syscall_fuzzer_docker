@@ -106,6 +106,13 @@ COPY ./sshd_config /sshd_config
 COPY ./gittest /git_example
 
 
+# install memcached
+COPY ./memcached-1.5.20 /memcached-1.5.20
+WORKDIR /memcached-1.5.20
+RUN ./configure
+RUN make
+
+
 
 # USER docker
 
