@@ -113,6 +113,9 @@ WORKDIR /memcached-1.5.20
 RUN ./configure
 RUN make
 
+USER docker
+RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N "" && \
+        cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 
 WORKDIR /rsyscall_fuzzer/controller
