@@ -88,7 +88,6 @@ RUN adduser docker sudo
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 # setup git
-COPY ./gittest_remote.git /gittest_remote.git
 COPY ./git-2.18.0 /git-2.18.0
 WORKDIR /git-2.18.0
 RUN make configure
