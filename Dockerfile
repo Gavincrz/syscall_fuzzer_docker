@@ -89,8 +89,9 @@ RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 COPY ./gittest_remote.git /gittest_remote.git
 COPY ./git-2.18.0 /git-2.18.0
 WORKDIR /git-2.18.0
+RUN make configure
 RUN ./configure
-RUN make clean; make
+RUN make clean; make all doc
 
 
 # USER docker
