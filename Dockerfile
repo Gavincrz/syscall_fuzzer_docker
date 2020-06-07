@@ -66,7 +66,8 @@ RUN rm log.txt
 
 # copy start script and change its permission
 COPY start.sh /start.sh
-RUN chmod +x /start.sh
+COPY setup.sh /setup.sh
+RUN chmod +x /start.sh; RUN chmod +x /setup.sh
 # copy test config
 COPY config/config.yaml /test_config.yaml
 
@@ -92,7 +93,17 @@ COPY ./git-2.18.0 /git-2.18.0
 WORKDIR /git-2.18.0
 RUN make configure
 RUN ./configure
-RUN make clean; make all doc
+RUN make clean; make all
+
+# install real openssh
+RUN apt install -y openssh-server
+RUN mkdir /run/sshd
+
+RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N "" && \
+        cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+COPY ./sshd_config /sshd_config
+COPY ./gittest /git_example
+
 
 
 # USER docker

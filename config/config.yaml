@@ -7,4 +7,4 @@ num_iteration: 10
 core_dir: /shared/cores
 store_core_dir: /shared/stored_cores
 max_depth: 50
-reference_file: reference.txt
+reference_file: /shared/reference.txt

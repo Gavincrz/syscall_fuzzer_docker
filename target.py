@@ -79,6 +79,15 @@ def clean_up_git():
         print(e)
 
 
+def clean_up_git_docker():
+    try:
+        shutil.rmtree('/test_repo')
+    except FileNotFoundError:
+        # print("Git Directory dose not exist")
+        pass
+    except Exception as e:
+        print(e)
+
 def git_init_setup():
     clean_up_git()
     os.mkdir('/home/gavin/gittest')
@@ -626,5 +635,25 @@ targets = {
          "sc_cov": True,
          "syscall_json": "syscall_g.json",
          "hash_file": "/shared/onefile.txt",
-        }
+        },
+    "git_docker":
+        {"command": "/git-2.18.0/git clone root@localhost:/test_repo.git /test_repo",
+         "server": False,
+         "poll": None,
+         "clients": [],
+         "sudo": True,
+         "retcode": None,
+         "env": None,
+         "strace_log": "/shared/git_strace.txt",
+         "cwd": None,
+         "input": None,
+         "timeout": 15,
+         "setup_func": clean_up_git_docker,
+         "poll_time": 3,
+         "fuzz_valid": True,
+         "a_cov": True,
+         "sc_cov": True,
+         "syscall_json": "/shared/git_syscall.json",
+         "hash_file": "/shared/git_hash.txt",
+         },
 }
