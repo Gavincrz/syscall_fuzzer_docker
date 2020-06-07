@@ -67,7 +67,8 @@ RUN rm log.txt
 # copy start script and change its permission
 COPY start.sh /start.sh
 COPY setup.sh /setup.sh
-RUN chmod +x /start.sh; RUN chmod +x /setup.sh
+RUN chmod +x /start.sh
+RUN chmod +x /setup.sh
 # copy test config
 COPY config/config.yaml /test_config.yaml
 
