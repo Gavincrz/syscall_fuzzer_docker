@@ -13,6 +13,7 @@ RUN apt-get install -y python3.6
 RUN apt-get install -y python3-pip
 RUN apt-get -y install sudo gdb
 RUN apt-get install -y openssh-client
+RUN apt-get install -y gettext
 
 # install customized libunwind
 ADD ./libunwind /libunwind
