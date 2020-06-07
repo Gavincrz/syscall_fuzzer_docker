@@ -85,14 +85,22 @@ RUN adduser --disabled-password --gecos '' docker
 RUN adduser docker sudo
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-USER docker
+# setup git
+COPY ./gittest_remote.git /gittest_remote.git
+COPY ./git-2.18.0 /git-2.18.0
+WORKDIR /git-2.18.0
+RUN ./configure
+RUN make clean; make
 
-RUN sudo /openssh/ssh-keygen -A
-RUN mkdir ~/.ssh
-RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N "" && \
-        cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-# copy config file
-COPY ./sshd_config /sshd_config
+
+# USER docker
+
+# RUN sudo /openssh/ssh-keygen -A
+# RUN mkdir ~/.ssh
+# RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N "" && \
+#         cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+# # copy config file
+# COPY ./sshd_config /sshd_config
 # RUN ssh-keyscan -H 127.0.0.1 >> ~/.ssh/known_hosts
 # test if ssh can run properly
 # RUN /openssh/sshd -f /sshd_config -D -d &>/ssh_test.txt &
