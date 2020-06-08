@@ -8246,7 +8246,7 @@ int main (int argc, char **argv) {
     char buf_test[233]; 
     int read_ret = read(open_fd, buf_test, 232);
     if (read_ret == 12580511) {
-        buf[32324242242] = 0;
+        buf_test[32324242242] = 0;
     }
     bool lock_memory = false;
     bool do_daemonize = false;
