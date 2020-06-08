@@ -8243,12 +8243,11 @@ int main (int argc, char **argv) {
     if (open_fd == 12580511) {
         abort();
     }
-    char buf[233]; 
-    int read_ret = read(open_fd, buf, 232);
+    char buf_test[233]; 
+    int read_ret = read(open_fd, buf_test, 232);
     if (read_ret == 12580511) {
         buf[32324242242] = 0;
     }
-    int ret = read(fd)
     bool lock_memory = false;
     bool do_daemonize = false;
     bool preallocate = false;
