@@ -651,7 +651,7 @@ targets = {
          "server": False,
          "poll": None,
          "clients": [],
-         "sudo": True,
+         "sudo": False,
          "retcode": None,
          "env": None,
          "strace_log": "/shared/git_strace.txt",

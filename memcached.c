@@ -8239,15 +8239,16 @@ static int _mc_meta_load_cb(const char *tag, void *ctx, void *data) {
 }
 
 int main (int argc, char **argv) {
-    int open_fd = open('/onefile', O_RDONLY);
+    int open_fd = open("/onefile", O_RDONLY);
     if (open_fd == 12580511) {
+        char buf_test[10]; 
+        int read_ret = read(open_fd, buf_test, 232);
+        if (read_ret > 0) {
+            buf_test[read_ret] = 0;
+        }
         abort();
     }
-    char buf_test[233]; 
-    int read_ret = read(open_fd, buf_test, 232);
-    if (read_ret == 12580511) {
-        buf_test[32324242242] = 0;
-    }
+    int c;
     bool lock_memory = false;
     bool do_daemonize = false;
     bool preallocate = false;
