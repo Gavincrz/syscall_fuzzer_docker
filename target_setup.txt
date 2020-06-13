@@ -1,3 +1,5 @@
+After setting up the container for any of following target, you could docker commit the container to 
+another docker image, and test different configuration based on that
 ===================================================================
 Memcached:
 ===================================================================
@@ -55,4 +57,3 @@ Git:
 cd /git-2.18.0
 ./configure
 make clean; make all
-

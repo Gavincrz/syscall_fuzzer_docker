@@ -75,12 +75,7 @@ COPY config/config.yaml /test_config.yaml
 # setup openssh
 RUN apt-get install -y libssl-dev zlib1g-dev
 ADD ./openssh /openssh
-WORKDIR /openssh
-RUN autoreconf
-RUN ./configure
-RUN make clean
-RUN make
-RUN mkdir /var/empty
+
 # setup sshd user
 RUN groupadd -g 59 sshd
 RUN useradd -u 59 -g 59 -c sshd -d / sshd
@@ -91,10 +86,6 @@ RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 # setup git
 COPY ./git-2.18.0 /git-2.18.0
-WORKDIR /git-2.18.0
-RUN make configure
-RUN ./configure
-RUN make clean; make all
 
 # install real openssh
 RUN apt install -y openssh-server
