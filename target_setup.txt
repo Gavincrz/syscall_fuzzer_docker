@@ -47,6 +47,14 @@ Since the ubuntu image of docker use glibc-2.31, the nanosleep implementation is
 clock_nanosleep, we are testing openssh_7.9p1, its privilige separation function do not set clock_nanosleep allowed
 in sand box child, we need to set the glibc version to 2.27, use ubuntu:18.04, or modify the openssh to allow that
 
+In host:
+copy openssh_syscall.json, target.py to $SHARED_DIR
+
+docker run --ulimit core=-1 --ulimit nofile=1048576 -it --name openssh_value_all -v $SHARED_DIR:/shared rscfuzzer:2.0
+
+In Docker
+cp /shared/target.py /rsyscall_fuzzer/controller/rscfuzzer/target.py
+
 cd /openssh
 autoreconf
 ./configure
@@ -54,6 +62,16 @@ make clean
 make
 mkdir /var/empty
 /openssh/ssh-keygen -A
+
+test and add localhost to known_host 
+/openssh/sshd -f /sshd_config -D -d &>/dev/null &
+run:
+ssh localhost -p 8080
+yes
+exit
+
+cd /rsyscall_fuzzer/controller
+/rsyscall_fuzzer/controller/main.py -c /test_config.yaml -d -e openssh_docker
 
 ===================================================================
 Git:

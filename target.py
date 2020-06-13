@@ -42,7 +42,7 @@ def connect_memcached_client(a1=None, a2=None):
 def openssh_simple_client():
     try:
         ssh = paramiko.SSHClient()
-        ssh.load_host_keys("/home/gavin/.ssh/known_hosts")
+        ssh.load_host_keys("~/.ssh/known_hosts")
         ssh.connect("localhost", port=8080, username="root", timeout=1, banner_timeout=1, auth_timeout=1)
         ssh.exec_command("exit", timeout=5)
         ssh.close()
