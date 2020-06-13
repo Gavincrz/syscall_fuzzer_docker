@@ -13,6 +13,10 @@ In Docker:
 cp /shared/target.py /rsyscall_fuzzer/controller/rscfuzzer/target.py
 cd /rsyscall_fuzzer/controller
 
+cd /memcached-1.5.20
+./configure
+make
+
 make sure /shared/log.txt and /rsyscall_fuzzer/controller/coverage.txt has been removed
 
 /rsyscall_fuzzer/controller/main.py -c /test_config.yaml -d -e memcahced_docker_test
