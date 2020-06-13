@@ -1,5 +1,5 @@
 # Use the official ubuntu image as a parent image.
-FROM ubuntu
+FROM ubuntu:18.04
 
 # install package 
 RUN apt-get update
@@ -117,7 +117,7 @@ RUN make
 # RUN ssh-keygen -b 2048 -t rsa -f ~/.ssh/id_rsa -q -N "" && \
 #         cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
-
+COPY ./lighttpd-1.4.51 /lighttpd-1.4.51
 WORKDIR /rsyscall_fuzzer/controller
 
 

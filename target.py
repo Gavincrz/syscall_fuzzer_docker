@@ -43,7 +43,7 @@ def openssh_simple_client():
     try:
         ssh = paramiko.SSHClient()
         ssh.load_host_keys("/home/gavin/.ssh/known_hosts")
-        ssh.connect("localhost", port=8080, username="gavin", timeout=5, banner_timeout=5, auth_timeout=5)
+        ssh.connect("localhost", port=8080, username="root", timeout=1, banner_timeout=1, auth_timeout=1)
         ssh.exec_command("exit", timeout=5)
         ssh.close()
     except Exception as err:
@@ -666,29 +666,6 @@ targets = {
          "syscall_json": "/shared/git_syscall.json",
          "hash_file": "/shared/git_hash.txt",
          },
-    "memcahced_docker":
-        {"command": "/memcached-1.5.20/memcached -p 11111 -U 11111 -u root",
-         "server": True,
-         "poll": "epoll_wait",
-         "clients": [connect_memcached_client],
-         "sudo": True,
-         "retcode": None,
-         "env": None,
-         "strace_log": "/shared/memcached_strace.txt",
-         "cwd": None,
-         "input": None,
-         "timeout": 8,
-         "setup_func": None,
-         "poll_time": 5,
-         "cov": False,
-         "a_cov": True,
-         "cov_cwd": "/home/gavin/memcached-cov/",
-         "fuzz_valid": True,
-         "sc_cov": True,
-         "syscall_json": "/shared/memcached_syscall.json",
-         "hash_file": "/shared/syscov_memcached.txt",
-         "accept_hash": 661215876,
-         },
     "memcahced_docker_test":
         {"command": "/memcached-1.5.20/memcached -p 11111 -U 11111 -u root",
          "server": True,
@@ -732,6 +709,27 @@ targets = {
          "a_cov": True,
          "syscall_json": "/shared/lighttpd_syscall.json",
          "hash_file": "/shared/syscov_lighttpd.txt",
+         "fuzz_valid": True,
+         "value_method": "VALUE_ALL"
+         },
+    "openssh_docker":
+        {"command": "/openssh/sshd -f /sshd_config -D -d",
+         "server": True,
+         "poll": "select",
+         "clients": [openssh_simple_client],
+         "sudo": False,
+         "retcode": 255,
+         "strace_log": "/shared/openssh_strace_log.txt",
+         "cwd": None,
+         "input": None,
+         "timeout": 1,
+         "setup_func": None,
+         "poll_time": 2,
+         "cov": False,
+         "sc_cov": True,
+         "a_cov": True,
+         "syscall_json": "/shared/openssh_syscall.json",
+         "hash_file": "/shared/syscov_openssh.txt",
          "fuzz_valid": True,
          "value_method": "VALUE_ALL"
          },

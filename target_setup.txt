@@ -1,0 +1,22 @@
+===================================================================
+Lighttpd:
+===================================================================
+copy lighttpd.conf, target.py, lighttpd_syscall.json to $SHARED_DIR
+
+docker run --ulimit core=-1 --ulimit nofile=1048576 -it -v $SHARED_DIR:/shared rscfuzzer:1.2
+
+In docker:
+cp /shared/target.py /rsyscall_fuzzer/controller/rscfuzzer/target.py
+cd /lighttpd-1.4.51
+./configure
+make
+
+
+cp /shared/lighttpd.conf /lighttpd.conf
+mkdir -p /var/log/lighttpd/
+cp -r /shared/www /var/
+
+/rsyscall_fuzzer/controller/main.py -c /test_config.yaml -d -e lighttpd_docker
+===================================================================
+Openssh:
+===================================================================
