@@ -18,6 +18,11 @@ setup_git()
     rm -rf test_repo
 }
 
+setup_lighttpd()
+{
+    echo "see lighttpd_setup.txt"
+}
+
 if [ $# -eq 0 ] 
 then
     echo "No arguments supplied, return.."
@@ -29,3 +34,10 @@ then
     setup_git
     exit 0
 fi
+
+if [ $1="lighttpd" ]
+then
+    setup_lighttpd
+    exit 0
+fi
+
