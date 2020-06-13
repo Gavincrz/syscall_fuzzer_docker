@@ -1,18 +1,17 @@
 #define _GNU_SOURCE
 #include <unistd.h>
-#include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/types.h>        
-#include <sys/socket.h>
 #include <sys/sendfile.h>
 #include <sys/types.h>          
 #include <sys/socket.h>
+#include <netdb.h>
 #include <errno.h>
+
 
 int main(int argc, char *argv[])
 {   

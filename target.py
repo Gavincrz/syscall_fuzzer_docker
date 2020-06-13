@@ -694,7 +694,7 @@ targets = {
          "server": True,
          "poll": "epoll_wait",
          "clients": [test_memcached_target],
-         "sudo": True,
+         "sudo": False,
          "retcode": None,
          "env": None,
          "strace_log": "/shared/memcached_strace.txt",
