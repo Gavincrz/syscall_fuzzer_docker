@@ -1,6 +1,23 @@
 ===================================================================
+Memcached:
+===================================================================
+In host:
+copy memcached_client.py, target.py, memcached_syscall.json to $SHARED_DIR
+Could edit target.py to change configurations
+
+docker run --ulimit core=-1 --ulimit nofile=1048576 -it -v $SHARED_DIR:/shared rscfuzzer:2.0
+
+In Docker:
+cp /shared/target.py /rsyscall_fuzzer/controller/rscfuzzer/target.py
+cd /rsyscall_fuzzer/controller
+
+make sure /shared/log.txt and /rsyscall_fuzzer/controller/coverage.txt has been removed
+
+/rsyscall_fuzzer/controller/main.py -c /test_config.yaml -d -e memcahced_docker_test
+===================================================================
 Lighttpd:
 ===================================================================
+In host:
 copy lighttpd.conf, target.py, lighttpd_syscall.json to $SHARED_DIR
 
 docker run --ulimit core=-1 --ulimit nofile=1048576 -it -v $SHARED_DIR:/shared rscfuzzer:1.2
@@ -11,12 +28,31 @@ cd /lighttpd-1.4.51
 ./configure
 make
 
-
 cp /shared/lighttpd.conf /lighttpd.conf
 mkdir -p /var/log/lighttpd/
 cp -r /shared/www /var/
 
+cd /rsyscall_fuzzer/controller
 /rsyscall_fuzzer/controller/main.py -c /test_config.yaml -d -e lighttpd_docker
 ===================================================================
 Openssh:
 ===================================================================
+Since the ubuntu image of docker use glibc-2.31, the nanosleep implementation is using 
+clock_nanosleep, we are testing openssh_7.9p1, its privilige separation function do not set clock_nanosleep allowed
+in sand box child, we need to set the glibc version to 2.27, use ubuntu:18.04, or modify the openssh to allow that
+
+cd /openssh
+autoreconf
+./configure
+make clean
+make
+mkdir /var/empty
+/openssh/ssh-keygen -A
+
+===================================================================
+Git:
+===================================================================
+cd /git-2.18.0
+./configure
+make clean; make all
+
