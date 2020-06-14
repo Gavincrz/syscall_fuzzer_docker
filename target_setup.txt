@@ -7,11 +7,13 @@ In host:
 copy memcached_client.py, target.py, memcached_syscall.json to $SHARED_DIR
 Could edit target.py to change configurations
 
-docker run --ulimit core=-1 --ulimit nofile=1048576 -it -v $SHARED_DIR:/shared rscfuzzer:2.0
+docker run --ulimit core=-1 --ulimit nofile=1048576 -it -v $SHARED_DIR:/shared rscfuzzer_openssh:2.0
 
 In Docker:
 cp /shared/target.py /rsyscall_fuzzer/controller/rscfuzzer/target.py
 cd /rsyscall_fuzzer/controller
+
+better to run the strace once to get the stack hash of accept syscall, and put the value in target.py
 
 cd /memcached-1.5.20
 ./configure

@@ -686,7 +686,8 @@ targets = {
          "sc_cov": True,
          "syscall_json": "/shared/memcached_syscall.json",
          "hash_file": "/shared/syscov_memcached.txt",
-         "accept_hash": 661215876,
+         "accept_hash": 3758794766,
+         "value_method": "VALUE_ALL"
          },
 
     "lighttpd_docker":
