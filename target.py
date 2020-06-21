@@ -18,7 +18,21 @@ log = logging.getLogger(__name__)
 # client functions
 def test_memcached_target():
     arg_test = shlex.split('/shared/memcached_client.py')
-    ret = subprocess.run(arg_test)
+    try:
+        ret = subprocess.run(arg_test, timeout=8)
+    except Exception as e:
+        return -1
+    if ret is None: 
+        return -1
+    else:
+        return ret.returncode
+
+def test_openssh_target():
+    arg_test = shlex.split('/shared/openssh_client.py')
+    try:
+        ret = subprocess.run(arg_test, timeout=8)
+    except Exception as e:
+        return -1
     if ret is None: 
         return -1
     else:
@@ -717,7 +731,7 @@ targets = {
         {"command": "/openssh/sshd -f /sshd_config -D -d",
          "server": True,
          "poll": "select",
-         "clients": [openssh_simple_client],
+         "clients": [test_openssh_target],
          "sudo": False,
          "retcode": 255,
          "strace_log": "/shared/openssh_strace_log.txt",
@@ -732,6 +746,9 @@ targets = {
          "syscall_json": "/shared/openssh_syscall.json",
          "hash_file": "/shared/syscov_openssh.txt",
          "fuzz_valid": True,
-         "value_method": "VALUE_ALL"
+         "value_method": "VALUE_RANDOM",
+         "field_method": "FIELD_ITER",
+         "order_method": "ORDER_ALL",
+         "skip_method": "SKIP_ONE"
          },
 }

@@ -26,7 +26,7 @@ make sure /shared/log.txt and /rsyscall_fuzzer/controller/coverage.txt has been 
 Lighttpd:
 ===================================================================
 In host:
-copy lighttpd.conf, target.py, lighttpd_syscall.json to $SHARED_DIR
+copy lighttpd.conf, target.py, lighttpd_syscall.json and www to $SHARED_DIR
 
 docker run --ulimit core=-1 --ulimit nofile=1048576 -it -v $SHARED_DIR:/shared rscfuzzer:1.2
 
@@ -35,6 +35,7 @@ cp /shared/target.py /rsyscall_fuzzer/controller/rscfuzzer/target.py
 cd /lighttpd-1.4.51
 ./configure
 make
+make install
 
 cp /shared/lighttpd.conf /lighttpd.conf
 mkdir -p /var/log/lighttpd/
