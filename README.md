@@ -35,7 +35,7 @@ cp your/git/json /shared/git_syscall.json
 run the docker in `syscall_fuzzer_docker` dir
 ```
 docker build -t rscfuzzer:1.0 ./
-docker run --ulimit core=-1 --ulimit nofile=1048576 -it -v $HOME/docker_shared_lighttpd_invalid:/shared --name lighttpd_value_invalid rscfuzzer_lighttpd:1.2
+docker run --ulimit core=-1 --ulimit nofile=1048576 -it --cap-add=SYS_PTRACE -v $HOME/docker_shared_lighttpd_invalid:/shared --name lighttpd_value_invalid rscfuzzer_lighttpd:1.2
 ```
 
 In docker, copy target file and do some application specific setup, it depend on which application you are using, customize your setup and target.py or config.yaml file
