@@ -1,0 +1,1060 @@
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -MM acl.c adlist.c ae.c ae_epoll.c ae_evport.c ae_kqueue.c ae_select.c anet.c aof.c bio.c bitops.c blocked.c childinfo.c cluster.c config.c crc16.c crc64.c db.c debug.c defrag.c dict.c endianconv.c evict.c expire.c geo.c geohash.c geohash_helper.c gopher.c hyperloglog.c intset.c latency.c lazyfree.c listpack.c localtime.c lolwut.c lolwut5.c lzf_c.c lzf_d.c memtest.c module.c multi.c networking.c notify.c object.c pqsort.c pubsub.c quicklist.c rand.c rax.c rdb.c redis-benchmark.c redis-check-aof.c redis-check-rdb.c redis-cli.c release.c replication.c rio.c scripting.c sds.c sentinel.c server.c setproctitle.c sha1.c siphash.c slowlog.c sort.c sparkline.c syncio.c t_hash.c t_list.c t_set.c t_stream.c t_string.c t_zset.c util.c ziplist.c zipmap.c zmalloc.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -MM acl.c adlist.c ae.c ae_epoll.c ae_evport.c ae_kqueue.c ae_select.c anet.c aof.c bio.c bitops.c blocked.c childinfo.c cluster.c config.c crc16.c crc64.c db.c debug.c defrag.c dict.c endianconv.c evict.c expire.c geo.c geohash.c geohash_helper.c gopher.c hyperloglog.c intset.c latency.c lazyfree.c listpack.c localtime.c lolwut.c lolwut5.c lzf_c.c lzf_d.c memtest.c module.c multi.c networking.c notify.c object.c pqsort.c pubsub.c quicklist.c rand.c rax.c rdb.c redis-benchmark.c redis-check-aof.c redis-check-rdb.c redis-cli.c release.c replication.c rio.c scripting.c sds.c sentinel.c server.c setproctitle.c sha1.c siphash.c slowlog.c sort.c sparkline.c syncio.c t_hash.c t_list.c t_set.c t_stream.c t_string.c t_zset.c util.c ziplist.c zipmap.c zmalloc.c
+
+Ignored compilation because of argument -MM
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c adlist.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c adlist.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c quicklist.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c quicklist.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ae.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ae.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c anet.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c anet.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c dict.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c dict.c
+
+15 errors detected in the compilation of "dict.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c server.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c server.c
+
+1573 errors detected in the compilation of "server.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sds.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sds.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zmalloc.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zmalloc.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_c.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_c.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_d.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_d.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pqsort.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pqsort.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zipmap.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zipmap.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sha1.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sha1.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ziplist.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ziplist.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c release.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c release.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c networking.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c networking.c
+
+1573 errors detected in the compilation of "networking.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c util.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c util.c
+
+1573 errors detected in the compilation of "util.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c object.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c object.c
+
+1573 errors detected in the compilation of "object.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c db.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c db.c
+
+15 errors detected in the compilation of "db.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c replication.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c replication.c
+
+15 errors detected in the compilation of "replication.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rdb.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rdb.c
+
+1573 errors detected in the compilation of "rdb.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_string.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_string.c
+
+1573 errors detected in the compilation of "t_string.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_list.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_list.c
+
+15 errors detected in the compilation of "t_list.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_set.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_set.c
+
+15 errors detected in the compilation of "t_set.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_zset.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_zset.c
+
+1573 errors detected in the compilation of "t_zset.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_hash.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_hash.c
+
+1573 errors detected in the compilation of "t_hash.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c config.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c config.c
+
+15 errors detected in the compilation of "config.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c aof.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c aof.c
+
+15 errors detected in the compilation of "aof.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pubsub.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pubsub.c
+
+15 errors detected in the compilation of "pubsub.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c multi.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c multi.c
+
+15 errors detected in the compilation of "multi.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c debug.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c debug.c
+
+15 errors detected in the compilation of "debug.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sort.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sort.c
+
+1573 errors detected in the compilation of "sort.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c intset.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c intset.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c syncio.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c syncio.c
+
+15 errors detected in the compilation of "syncio.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c cluster.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c cluster.c
+
+1573 errors detected in the compilation of "cluster.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc16.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc16.c
+
+15 errors detected in the compilation of "crc16.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c endianconv.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c endianconv.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c slowlog.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c slowlog.c
+
+15 errors detected in the compilation of "slowlog.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c scripting.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c scripting.c
+
+1573 errors detected in the compilation of "scripting.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bio.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bio.c
+
+15 errors detected in the compilation of "bio.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rio.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rio.c
+
+15 errors detected in the compilation of "rio.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rand.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rand.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c memtest.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c memtest.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc64.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc64.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bitops.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bitops.c
+
+15 errors detected in the compilation of "bitops.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sentinel.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sentinel.c
+
+15 errors detected in the compilation of "sentinel.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c notify.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c notify.c
+
+15 errors detected in the compilation of "notify.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c setproctitle.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c setproctitle.c
+
+15 errors detected in the compilation of "setproctitle.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c blocked.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c blocked.c
+
+15 errors detected in the compilation of "blocked.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c hyperloglog.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c hyperloglog.c
+
+1573 errors detected in the compilation of "hyperloglog.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c latency.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c latency.c
+
+15 errors detected in the compilation of "latency.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sparkline.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sparkline.c
+
+1573 errors detected in the compilation of "sparkline.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-rdb.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-rdb.c
+
+15 errors detected in the compilation of "redis-check-rdb.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-aof.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-aof.c
+
+15 errors detected in the compilation of "redis-check-aof.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geo.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geo.c
+
+15 errors detected in the compilation of "geo.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lazyfree.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lazyfree.c
+
+15 errors detected in the compilation of "lazyfree.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c module.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c module.c
+
+15 errors detected in the compilation of "module.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c evict.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c evict.c
+
+15 errors detected in the compilation of "evict.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c expire.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c expire.c
+
+15 errors detected in the compilation of "expire.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash_helper.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash_helper.c
+
+1558 errors detected in the compilation of "geohash_helper.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c childinfo.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c childinfo.c
+
+15 errors detected in the compilation of "childinfo.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c defrag.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c defrag.c
+
+15 errors detected in the compilation of "defrag.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c siphash.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c siphash.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rax.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rax.c
+
+8 errors detected in the compilation of "rax.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_stream.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_stream.c
+
+15 errors detected in the compilation of "t_stream.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c listpack.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c listpack.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c localtime.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c localtime.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut.c
+
+15 errors detected in the compilation of "lolwut.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut5.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut5.c
+
+1573 errors detected in the compilation of "lolwut5.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c acl.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c acl.c
+
+15 errors detected in the compilation of "acl.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c gopher.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c gopher.c
+
+15 errors detected in the compilation of "gopher.c".
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-server adlist.o quicklist.o ae.o anet.o dict.o server.o sds.o zmalloc.o lzf_c.o lzf_d.o pqsort.o zipmap.o sha1.o ziplist.o release.o networking.o util.o object.o db.o replication.o rdb.o t_string.o t_list.o t_set.o t_zset.o t_hash.o config.o aof.o pubsub.o multi.o debug.o sort.o intset.o syncio.o cluster.o crc16.o endianconv.o slowlog.o scripting.o bio.o rio.o rand.o memtest.o crc64.o bitops.o sentinel.o notify.o setproctitle.o blocked.o hyperloglog.o latency.o sparkline.o redis-check-rdb.o redis-check-aof.o geo.o lazyfree.o module.o evict.o expire.o geohash.o geohash_helper.o childinfo.o defrag.o siphash.o rax.o t_stream.o listpack.o localtime.o lolwut.o lolwut5.o acl.o gopher.o ../deps/hiredis/libhiredis.a ../deps/lua/src/liblua.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-server adlist.o quicklist.o ae.o anet.o dict.o server.o sds.o zmalloc.o lzf_c.o lzf_d.o pqsort.o zipmap.o sha1.o ziplist.o release.o networking.o util.o object.o db.o replication.o rdb.o t_string.o t_list.o t_set.o t_zset.o t_hash.o config.o aof.o pubsub.o multi.o debug.o sort.o intset.o syncio.o cluster.o crc16.o endianconv.o slowlog.o scripting.o bio.o rio.o rand.o memtest.o crc64.o bitops.o sentinel.o notify.o setproctitle.o blocked.o hyperloglog.o latency.o sparkline.o redis-check-rdb.o redis-check-aof.o geo.o lazyfree.o module.o evict.o expire.o geohash.o geohash_helper.o childinfo.o defrag.o siphash.o rax.o t_stream.o listpack.o localtime.o lolwut.o lolwut5.o acl.o gopher.o ../deps/hiredis/libhiredis.a ../deps/lua/src/liblua.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-cli.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-cli.c
+
+1573 errors detected in the compilation of "redis-cli.c".
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-cli anet.o adlist.o dict.o redis-cli.o zmalloc.o release.o ae.o crc64.o siphash.o crc16.o ../deps/hiredis/libhiredis.a ../deps/linenoise/linenoise.o ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-cli anet.o adlist.o dict.o redis-cli.o zmalloc.o release.o ae.o crc64.o siphash.o crc16.o ../deps/hiredis/libhiredis.a ../deps/linenoise/linenoise.o ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-benchmark.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-benchmark.c
+
+1573 errors detected in the compilation of "redis-benchmark.c".
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-benchmark ae.o anet.o redis-benchmark.o adlist.o dict.o zmalloc.o siphash.o ../deps/hiredis/libhiredis.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-benchmark ae.o anet.o redis-benchmark.o adlist.o dict.o zmalloc.o siphash.o ../deps/hiredis/libhiredis.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-server adlist.o quicklist.o ae.o anet.o dict.o server.o sds.o zmalloc.o lzf_c.o lzf_d.o pqsort.o zipmap.o sha1.o ziplist.o release.o networking.o util.o object.o db.o replication.o rdb.o t_string.o t_list.o t_set.o t_zset.o t_hash.o config.o aof.o pubsub.o multi.o debug.o sort.o intset.o syncio.o cluster.o crc16.o endianconv.o slowlog.o scripting.o bio.o rio.o rand.o memtest.o crc64.o bitops.o sentinel.o notify.o setproctitle.o blocked.o hyperloglog.o latency.o sparkline.o redis-check-rdb.o redis-check-aof.o geo.o lazyfree.o module.o evict.o expire.o geohash.o geohash_helper.o childinfo.o defrag.o siphash.o rax.o t_stream.o listpack.o localtime.o lolwut.o lolwut5.o acl.o gopher.o ../deps/hiredis/libhiredis.a ../deps/lua/src/liblua.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-server adlist.o quicklist.o ae.o anet.o dict.o server.o sds.o zmalloc.o lzf_c.o lzf_d.o pqsort.o zipmap.o sha1.o ziplist.o release.o networking.o util.o object.o db.o replication.o rdb.o t_string.o t_list.o t_set.o t_zset.o t_hash.o config.o aof.o pubsub.o multi.o debug.o sort.o intset.o syncio.o cluster.o crc16.o endianconv.o slowlog.o scripting.o bio.o rio.o rand.o memtest.o crc64.o bitops.o sentinel.o notify.o setproctitle.o blocked.o hyperloglog.o latency.o sparkline.o redis-check-rdb.o redis-check-aof.o geo.o lazyfree.o module.o evict.o expire.o geohash.o geohash_helper.o childinfo.o defrag.o siphash.o rax.o t_stream.o listpack.o localtime.o lolwut.o lolwut5.o acl.o gopher.o ../deps/hiredis/libhiredis.a ../deps/lua/src/liblua.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-cli anet.o adlist.o dict.o redis-cli.o zmalloc.o release.o ae.o crc64.o siphash.o crc16.o ../deps/hiredis/libhiredis.a ../deps/linenoise/linenoise.o ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-cli anet.o adlist.o dict.o redis-cli.o zmalloc.o release.o ae.o crc64.o siphash.o crc16.o ../deps/hiredis/libhiredis.a ../deps/linenoise/linenoise.o ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-benchmark ae.o anet.o redis-benchmark.o adlist.o dict.o zmalloc.o siphash.o ../deps/hiredis/libhiredis.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-benchmark ae.o anet.o redis-benchmark.o adlist.o dict.o zmalloc.o siphash.o ../deps/hiredis/libhiredis.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -MM acl.c adlist.c ae.c ae_epoll.c ae_evport.c ae_kqueue.c ae_select.c anet.c aof.c bio.c bitops.c blocked.c childinfo.c cluster.c config.c crc16.c crc64.c db.c debug.c defrag.c dict.c endianconv.c evict.c expire.c geo.c geohash.c geohash_helper.c gopher.c hyperloglog.c intset.c latency.c lazyfree.c listpack.c localtime.c lolwut.c lolwut5.c lzf_c.c lzf_d.c memtest.c module.c multi.c networking.c notify.c object.c pqsort.c pubsub.c quicklist.c rand.c rax.c rdb.c redis-benchmark.c redis-check-aof.c redis-check-rdb.c redis-cli.c release.c replication.c rio.c scripting.c sds.c sentinel.c server.c setproctitle.c sha1.c siphash.c slowlog.c sort.c sparkline.c syncio.c t_hash.c t_list.c t_set.c t_stream.c t_string.c t_zset.c util.c ziplist.c zipmap.c zmalloc.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -MM acl.c adlist.c ae.c ae_epoll.c ae_evport.c ae_kqueue.c ae_select.c anet.c aof.c bio.c bitops.c blocked.c childinfo.c cluster.c config.c crc16.c crc64.c db.c debug.c defrag.c dict.c endianconv.c evict.c expire.c geo.c geohash.c geohash_helper.c gopher.c hyperloglog.c intset.c latency.c lazyfree.c listpack.c localtime.c lolwut.c lolwut5.c lzf_c.c lzf_d.c memtest.c module.c multi.c networking.c notify.c object.c pqsort.c pubsub.c quicklist.c rand.c rax.c rdb.c redis-benchmark.c redis-check-aof.c redis-check-rdb.c redis-cli.c release.c replication.c rio.c scripting.c sds.c sentinel.c server.c setproctitle.c sha1.c siphash.c slowlog.c sort.c sparkline.c syncio.c t_hash.c t_list.c t_set.c t_stream.c t_string.c t_zset.c util.c ziplist.c zipmap.c zmalloc.c
+
+Ignored compilation because of argument -MM
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c adlist.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c adlist.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c quicklist.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c quicklist.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ae.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ae.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c anet.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c anet.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c dict.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c dict.c
+
+15 errors detected in the compilation of "dict.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c server.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c server.c
+
+1573 errors detected in the compilation of "server.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sds.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sds.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zmalloc.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zmalloc.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_c.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_c.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_d.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lzf_d.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pqsort.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pqsort.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zipmap.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c zipmap.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sha1.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sha1.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ziplist.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c ziplist.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c release.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c release.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c networking.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c networking.c
+
+1573 errors detected in the compilation of "networking.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c util.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c util.c
+
+1573 errors detected in the compilation of "util.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c object.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c object.c
+
+1573 errors detected in the compilation of "object.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c db.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c db.c
+
+15 errors detected in the compilation of "db.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c replication.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c replication.c
+
+15 errors detected in the compilation of "replication.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rdb.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rdb.c
+
+1573 errors detected in the compilation of "rdb.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_string.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_string.c
+
+1573 errors detected in the compilation of "t_string.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_list.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_list.c
+
+15 errors detected in the compilation of "t_list.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_set.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_set.c
+
+15 errors detected in the compilation of "t_set.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_zset.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_zset.c
+
+1573 errors detected in the compilation of "t_zset.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_hash.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_hash.c
+
+1573 errors detected in the compilation of "t_hash.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c config.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c config.c
+
+15 errors detected in the compilation of "config.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c aof.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c aof.c
+
+15 errors detected in the compilation of "aof.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pubsub.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c pubsub.c
+
+15 errors detected in the compilation of "pubsub.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c multi.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c multi.c
+
+15 errors detected in the compilation of "multi.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c debug.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c debug.c
+
+15 errors detected in the compilation of "debug.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sort.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sort.c
+
+1573 errors detected in the compilation of "sort.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c intset.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c intset.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c syncio.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c syncio.c
+
+15 errors detected in the compilation of "syncio.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c cluster.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c cluster.c
+
+1573 errors detected in the compilation of "cluster.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc16.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc16.c
+
+15 errors detected in the compilation of "crc16.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c endianconv.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c endianconv.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c slowlog.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c slowlog.c
+
+15 errors detected in the compilation of "slowlog.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c scripting.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c scripting.c
+
+1573 errors detected in the compilation of "scripting.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bio.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bio.c
+
+15 errors detected in the compilation of "bio.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rio.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rio.c
+
+15 errors detected in the compilation of "rio.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rand.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rand.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c memtest.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c memtest.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc64.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c crc64.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bitops.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c bitops.c
+
+15 errors detected in the compilation of "bitops.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sentinel.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sentinel.c
+
+15 errors detected in the compilation of "sentinel.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c notify.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c notify.c
+
+15 errors detected in the compilation of "notify.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c setproctitle.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c setproctitle.c
+
+15 errors detected in the compilation of "setproctitle.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c blocked.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c blocked.c
+
+15 errors detected in the compilation of "blocked.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c hyperloglog.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c hyperloglog.c
+
+1573 errors detected in the compilation of "hyperloglog.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c latency.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c latency.c
+
+15 errors detected in the compilation of "latency.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sparkline.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c sparkline.c
+
+1573 errors detected in the compilation of "sparkline.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-rdb.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-rdb.c
+
+15 errors detected in the compilation of "redis-check-rdb.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-aof.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-check-aof.c
+
+15 errors detected in the compilation of "redis-check-aof.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geo.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geo.c
+
+15 errors detected in the compilation of "geo.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lazyfree.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lazyfree.c
+
+15 errors detected in the compilation of "lazyfree.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c module.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c module.c
+
+15 errors detected in the compilation of "module.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c evict.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c evict.c
+
+15 errors detected in the compilation of "evict.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c expire.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c expire.c
+
+15 errors detected in the compilation of "expire.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash_helper.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c geohash_helper.c
+
+1558 errors detected in the compilation of "geohash_helper.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c childinfo.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c childinfo.c
+
+15 errors detected in the compilation of "childinfo.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c defrag.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c defrag.c
+
+15 errors detected in the compilation of "defrag.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c siphash.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c siphash.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rax.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c rax.c
+
+8 errors detected in the compilation of "rax.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_stream.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c t_stream.c
+
+15 errors detected in the compilation of "t_stream.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c listpack.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c listpack.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c localtime.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c localtime.c
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut.c
+
+15 errors detected in the compilation of "lolwut.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut5.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c lolwut5.c
+
+1573 errors detected in the compilation of "lolwut5.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c acl.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c acl.c
+
+15 errors detected in the compilation of "acl.c".
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c gopher.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c gopher.c
+
+15 errors detected in the compilation of "gopher.c".
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-server adlist.o quicklist.o ae.o anet.o dict.o server.o sds.o zmalloc.o lzf_c.o lzf_d.o pqsort.o zipmap.o sha1.o ziplist.o release.o networking.o util.o object.o db.o replication.o rdb.o t_string.o t_list.o t_set.o t_zset.o t_hash.o config.o aof.o pubsub.o multi.o debug.o sort.o intset.o syncio.o cluster.o crc16.o endianconv.o slowlog.o scripting.o bio.o rio.o rand.o memtest.o crc64.o bitops.o sentinel.o notify.o setproctitle.o blocked.o hyperloglog.o latency.o sparkline.o redis-check-rdb.o redis-check-aof.o geo.o lazyfree.o module.o evict.o expire.o geohash.o geohash_helper.o childinfo.o defrag.o siphash.o rax.o t_stream.o listpack.o localtime.o lolwut.o lolwut5.o acl.o gopher.o ../deps/hiredis/libhiredis.a ../deps/lua/src/liblua.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-server adlist.o quicklist.o ae.o anet.o dict.o server.o sds.o zmalloc.o lzf_c.o lzf_d.o pqsort.o zipmap.o sha1.o ziplist.o release.o networking.o util.o object.o db.o replication.o rdb.o t_string.o t_list.o t_set.o t_zset.o t_hash.o config.o aof.o pubsub.o multi.o debug.o sort.o intset.o syncio.o cluster.o crc16.o endianconv.o slowlog.o scripting.o bio.o rio.o rand.o memtest.o crc64.o bitops.o sentinel.o notify.o setproctitle.o blocked.o hyperloglog.o latency.o sparkline.o redis-check-rdb.o redis-check-aof.o geo.o lazyfree.o module.o evict.o expire.o geohash.o geohash_helper.o childinfo.o defrag.o siphash.o rax.o t_stream.o listpack.o localtime.o lolwut.o lolwut5.o acl.o gopher.o ../deps/hiredis/libhiredis.a ../deps/lua/src/liblua.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-cli.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-cli.c
+
+1573 errors detected in the compilation of "redis-cli.c".
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-cli anet.o adlist.o dict.o redis-cli.o zmalloc.o release.o ae.o crc64.o siphash.o crc16.o ../deps/hiredis/libhiredis.a ../deps/linenoise/linenoise.o ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-cli anet.o adlist.o dict.o redis-cli.o zmalloc.o release.o ae.o crc64.o siphash.o crc16.o ../deps/hiredis/libhiredis.a ../deps/linenoise/linenoise.o ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+
+
+
+======================================================================
+==>  cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-benchmark.c
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -c redis-benchmark.c
+
+1573 errors detected in the compilation of "redis-benchmark.c".
+
+
+======================================================================
+==>  cc -g -ggdb -rdynamic -o redis-benchmark ae.o anet.o redis-benchmark.o adlist.o dict.o zmalloc.o siphash.o ../deps/hiredis/libhiredis.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+==>  /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/bin/codesonar compile -compiler-location cc -continue yes -w -conf-file /home/gavin/codesonar-5.0p0.20180811-x86_64-pc-linux/codesonar-5.0p0/codesonar/template.conf -conf-file /home/gavin/redis/redis_test.CSURF_COMPILER_CONF_MARKER -conf-file /home/gavin/redis/redis_test.conf -invoke-compiler no -transparent yes -T/home/gavin/redis/redis_test.prj_files cc -g -ggdb -rdynamic -o redis-benchmark ae.o anet.o redis-benchmark.o adlist.o dict.o zmalloc.o siphash.o ../deps/hiredis/libhiredis.a ../deps/jemalloc/lib/libjemalloc.a -lm -ldl -pthread -lrt
+

@@ -1,0 +1,372 @@
+[
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include adlist.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/adlist.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include quicklist.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/quicklist.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include ae.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/ae.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include anet.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/anet.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include dict.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/dict.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include server.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/server.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include sds.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/sds.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include zmalloc.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/zmalloc.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include lzf_c.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/lzf_c.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include lzf_d.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/lzf_d.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include pqsort.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/pqsort.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include zipmap.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/zipmap.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include sha1.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/sha1.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include ziplist.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/ziplist.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include release.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/release.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include networking.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/networking.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include util.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/util.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include object.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/object.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include db.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/db.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include replication.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/replication.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include rdb.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/rdb.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include t_string.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/t_string.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include t_list.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/t_list.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include t_set.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/t_set.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include t_zset.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/t_zset.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include t_hash.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/t_hash.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include config.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/config.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include aof.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/aof.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include pubsub.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/pubsub.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include multi.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/multi.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include debug.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/debug.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include sort.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/sort.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include intset.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/intset.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include syncio.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/syncio.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include cluster.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/cluster.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include crc16.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/crc16.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include endianconv.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/endianconv.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include slowlog.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/slowlog.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include scripting.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/scripting.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include bio.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/bio.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include rio.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/rio.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include rand.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/rand.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include memtest.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/memtest.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include crc64.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/crc64.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include bitops.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/bitops.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include sentinel.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/sentinel.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include notify.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/notify.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include setproctitle.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/setproctitle.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include blocked.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/blocked.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include hyperloglog.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/hyperloglog.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include latency.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/latency.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include sparkline.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/sparkline.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include redis-check-rdb.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/redis-check-rdb.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include redis-check-aof.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/redis-check-aof.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include geo.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/geo.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include lazyfree.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/lazyfree.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include module.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/module.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include evict.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/evict.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include expire.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/expire.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include geohash.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/geohash.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include geohash_helper.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/geohash_helper.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include childinfo.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/childinfo.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include defrag.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/defrag.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include siphash.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/siphash.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include rax.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/rax.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include t_stream.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/t_stream.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include listpack.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/listpack.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include localtime.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/localtime.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include lolwut.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/lolwut.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include lolwut5.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/lolwut5.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include acl.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/acl.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include gopher.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/gopher.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include redis-cli.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/redis-cli.c"
+    }, 
+    {
+        "command": "cc -c -std=c11 -pedantic -DREDIS_STATIC= -Wall -W -Wno-missing-field-initializers -O2 -g -ggdb -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include redis-benchmark.c", 
+        "directory": "/home/gavin/redis/src", 
+        "file": "/home/gavin/redis/src/redis-benchmark.c"
+    }
+]
