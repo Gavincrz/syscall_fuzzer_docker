@@ -1,0 +1,172 @@
+[
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -I. -o example.o test/example.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/test/example.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o adler32.o adler32.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/adler32.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o crc32.o crc32.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/crc32.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o deflate.o deflate.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/deflate.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o infback.o infback.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/infback.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o inffast.o inffast.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/inffast.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o inflate.o inflate.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/inflate.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o inftrees.o inftrees.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/inftrees.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o trees.o trees.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/trees.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o zutil.o zutil.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/zutil.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o compress.o compress.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/compress.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o uncompr.o uncompr.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/uncompr.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o gzclose.o gzclose.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzclose.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o gzlib.o gzlib.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzlib.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o gzread.o gzread.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzread.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o gzwrite.o gzwrite.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzwrite.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -I. -o minigzip.o test/minigzip.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/test/minigzip.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/adler32.o adler32.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/adler32.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/crc32.o crc32.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/crc32.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/deflate.o deflate.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/deflate.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/infback.o infback.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/infback.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/inffast.o inffast.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/inffast.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/inflate.o inflate.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/inflate.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/inftrees.o inftrees.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/inftrees.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/trees.o trees.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/trees.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/zutil.o zutil.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/zutil.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/compress.o compress.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/compress.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/uncompr.o uncompr.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/uncompr.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/gzclose.o gzclose.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzclose.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/gzlib.o gzlib.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzlib.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/gzread.o gzread.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzread.c"
+    }, 
+    {
+        "command": "cc -c -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -DPIC -o objs/gzwrite.o gzwrite.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/gzwrite.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -I. -D_FILE_OFFSET_BITS=64 -o example64.o test/example.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/test/example.c"
+    }, 
+    {
+        "command": "cc -c -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -I. -D_FILE_OFFSET_BITS=64 -o minigzip64.o test/minigzip.c", 
+        "directory": "/home/gavin/zlib", 
+        "file": "/home/gavin/zlib/test/minigzip.c"
+    }
+]
