@@ -1,0 +1,467 @@
+[
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS calcforc.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/calcforc.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS variable.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/variable.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS trirevis.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/trirevis.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS stringl.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/stringl.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS stringq.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/stringq.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS model.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/model.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS fixvol.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/fixvol.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS query.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/query.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS matrix.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/matrix.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS grapher.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/grapher.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS painter.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/painter.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS filml.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/filml.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS filmq.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/filmq.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS torvol.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/torvol.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS lexinit.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/lexinit.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS graphgen.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/graphgen.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS modify.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/modify.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS userio.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/userio.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS boundary.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/boundary.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS curtest.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/curtest.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS display.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/display.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS yexparse.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/yexparse.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS lexyy.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/lexyy.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS ytab.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/ytab.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS hessian.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/hessian.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS evaltree.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/evaltree.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS cnstrnt.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/cnstrnt.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS verpopst.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/verpopst.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS popfilm.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/popfilm.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS machine.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/machine.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS veravg.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/veravg.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS pixgraph.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/pixgraph.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS tmain.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/tmain.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS tordup.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/tordup.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS wulff.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/wulff.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS help.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/help.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS psgraph.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/psgraph.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS check.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/check.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS utility.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/utility.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS skeleton.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/skeleton.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS storage.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/storage.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS dump.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/dump.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS iterate.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/iterate.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS filgraph.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/filgraph.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS zoom.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/zoom.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS softimag.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/softimag.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS mvgraph.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/mvgraph.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS diffuse.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/diffuse.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS sqcurve.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/sqcurve.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS klein.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/klein.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS command.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/command.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS hidim.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/hidim.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS simplex.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/simplex.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS metric.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/metric.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS torus.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/torus.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS quotient.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/quotient.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS alice.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/alice.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS sdrv.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/sdrv.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS odrv.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/odrv.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS userfunc.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/userfunc.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS kusner.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/kusner.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS simequi2.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/simequi2.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS geomgraph.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/geomgraph.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS symtable.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/symtable.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS exprint.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/exprint.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS quantity.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/quantity.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS meanint.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/meanint.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS mindeg.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/mindeg.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS dodecGroup.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/dodecGroup.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS registry.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/registry.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS khyp.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/khyp.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS gauss.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/gauss.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS knot1.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/knot1.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS eval_all.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/eval_all.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS lexinit2.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/lexinit2.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS evalmore.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/evalmore.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS knot2.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/knot2.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS knot3.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/knot3.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS teix.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/teix.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS sqcurve2.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/sqcurve2.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS hessian2.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/hessian2.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS hessian3.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/hessian3.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS method1.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/method1.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS method2.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/method2.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS method3.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/method3.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS bk.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/bk.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS method4.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/method4.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS method5.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/method5.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS eval_sec.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/eval_sec.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS sqcurve3.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/sqcurve3.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS metis.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/metis.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS lagrange.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/lagrange.c"
+    }, 
+    {
+        "command": "cc -c -O3 -DLINUX -DOOGL -DPTHREADS glutgraph.c", 
+        "directory": "/home/gavin/evolver-2.70+ds.orig/src", 
+        "file": "/home/gavin/evolver-2.70+ds.orig/src/glutgraph.c"
+    }
+]
